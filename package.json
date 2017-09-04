@@ -5,12 +5,11 @@
     "main": "server.js",
     "scripts": {
         "ng": "ng",
-        "start": "node src/server.js",
+        "start": "ts-node src/server.ts",
         "build": "ng build",
         "test": "ng test",
         "lint": "ng lint",
-        "e2e": "ng e2e",
-        "postinstall": "ng build --aot -prod"
+        "e2e": "ng e2e"
     },
     "engines": {
         "node": "8.1.4",
