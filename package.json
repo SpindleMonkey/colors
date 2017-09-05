@@ -2,7 +2,7 @@
     "name": "colorpsych",
     "version": "0.0.0",
     "license": "MIT",
-    "main": "server.js",
+    "main": "src/server.ts",
     "scripts": {
         "ng": "ng",
         "start": "ts-node src/server.ts",
@@ -15,7 +15,7 @@
         "node": "8.1.4",
         "npm": "5.0.3"
     },
-    "private": false,
+    "private": true,
     "dependencies": {
         "@agm/core": "^1.0.0-beta.1",
         "@angular/animations": "^4.3.6",
