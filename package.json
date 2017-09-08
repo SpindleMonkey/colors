@@ -4,12 +4,8 @@
     "license": "MIT",
     "main": "src/server.ts",
     "scripts": {
-        "ng": "ng",
-        "start": "ts-node src/server.ts",
-        "build": "ng build",
-        "test": "ng test",
-        "lint": "ng lint",
-        "e2e": "ng e2e"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "ts-node src/server.ts"
     },
     "engines": {
         "node": "8.1.4",
@@ -68,6 +64,7 @@
         "sequelize": "^4.7.2",
         "sequelize-cli": "^2.8.0",
         "typescript": "~2.3.3",
+        "ts-node": "~3.2.0",
         "zone.js": "^0.8.14"
     },
     "devDependencies": {
@@ -84,7 +81,6 @@
         "karma-jasmine-html-reporter": "^0.2.2",
         "node-sass": "^4.5.3",
         "protractor": "~5.1.2",
-        "ts-node": "~3.2.0",
         "tslint": "~5.3.2"
     }
 }
