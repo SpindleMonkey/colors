@@ -64,7 +64,7 @@
         "sequelize": "^4.7.2",
         "sequelize-cli": "^2.8.0",
         "typescript": "~2.3.3",
-        "ts-node": "~3.2.0",
+        "ts-node": "3.3.0",
         "zone.js": "^0.8.14"
     },
     "devDependencies": {
